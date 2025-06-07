@@ -24,7 +24,7 @@ class Account { // 계좌 정보
 		this.userName = userName;
 	}
 
-	public void withdraw(int newBalance) { // 출금
+	public void withdraw(int newBalance) { // 출금하기
 		if (balance >= newBalance) {
 			balance -= newBalance;
 		} else {
